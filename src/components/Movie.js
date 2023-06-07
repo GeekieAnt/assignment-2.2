@@ -1,7 +1,12 @@
 import React from "react";
+import { Typography } from "@mui/material";
 
 const Movie = ({ title }) => {
-  return <div>Movie</div>;
+  return (
+    <div>
+      <Typography>{title}</Typography>
+    </div>
+  );
 };
 
 export default Movie;

@@ -9,13 +9,13 @@ const Container = () => {
         Movie App
       </Typography>
       <Genre
-        type="Comedy"
+        name="Comedy"
         description="provoke laughter and amusement"
         movieTitle1="Bridesmaids"
         movieTitle2="Superbad"
       />
       <Genre
-        type="Romance"
+        name="Romance"
         description="explores the themes of love, passion, and emotional connection between characters"
         movieTitle1="The Notebook"
         movieTitle2="La La Land"

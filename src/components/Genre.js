@@ -5,7 +5,7 @@ import Movie from "./Movie";
 const Genre = ({ name, description, movieTitle1, movieTitle2 }) => {
   return (
     <>
-      <Typography variant="h3">{name}</Typography>
+      <Typography variant="h4">{name}</Typography>
       <Typography>{description}</Typography>
       <List sx={{ mb: 3 }}>
         <ListItem>
